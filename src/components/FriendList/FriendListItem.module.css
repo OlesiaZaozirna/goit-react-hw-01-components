@@ -24,14 +24,16 @@
 }
 .status_online {
   composes: status;
-  background-color: rgb(11, 145, 100);
+  background-color: rgb(19, 230, 159);
+  box-shadow: 0 0 3px 3px rgb(19, 230, 159);
 }
 .status_offline {
   composes: status;
-  background-color: rgb(180, 12, 60);
+  background-color: rgb(237, 20, 82);
+  box-shadow: 0 0 3px 3px rgb(237, 20, 82);
 }
 .name {
   margin-left: 20px;
   font-size: 18px;
-  font-weight: 600;
+  font-weight: 700;
 }
