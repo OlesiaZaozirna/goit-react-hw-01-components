@@ -3,10 +3,10 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: 400px;
+  width: 500px;
   height: auto;
   overflow: hidden;
-  margin-top: 30px;
+  margin-top: 50px;
   margin-left: auto;
   margin-right: auto;
   box-shadow: rgb(158, 158, 158) 0px 4px 10px 4px;
@@ -19,4 +19,24 @@
   flex-direction: row;
   align-items: center;
   justify-content: center;
+  width: 100%;
+}
+.item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  height: 50px;
+  width: 20%;
+}
+.title {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+.label,
+.percentage {
+  color: #f4ebeb;
+  font-size: 18px;
+  font-weight: 600;
 }
